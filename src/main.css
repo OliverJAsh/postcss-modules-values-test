@@ -1,0 +1,5 @@
+@value colors: './colors.css';
+
+.foo {
+    composes: text from colors;
+}
